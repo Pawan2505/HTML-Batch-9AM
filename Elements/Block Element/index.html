@@ -1,51 +1,43 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>HTML</title>
-  </head>
-  <body>
-    <!-- 
-    
-    Heading -> <h1>tag (largest) to <h6>tag (smallest)
-    -->
+<head>
+  <title>HTML Basics</title>
+</head>
+<body>
 
-    <h1>This is Heading-1</h1>
-    <h2>This is Heading-2</h2>
-    <h3>This is Heading-3</h3>
-    <h4>This is Heading-4</h4>
-    <h5>This is Heading-5</h5>
-    <h6>This is Heading-6</h6>
+  <!-- ============================
+       HEADING TAGS 
+       <h1> to <h6> → h1 is largest, h6 is smallest
+  ============================= -->
 
-    <!-- Paragraph -->
+  <h1>This is Heading-1</h1>
+  <h2>This is Heading-2</h2>
+  <h3>This is Heading-3</h3>
+  <h4>This is Heading-4</h4>
+  <h5>This is Heading-5</h5>
+  <h6>This is Heading-6</h6>
 
-    <p>
-      Lorem ipsum dolor sit, 
-      
-      
-      
-      
-      amet consectetur adipisicing elit. Commodi
-      voluptates rerum quidem, exercitationem suscipit ipsum incidunt numquam
-      enim est a distinctio totam unde error.
-      
-      
-      
-      
-      Voluptas recusandae sit libero
-      eaque in adipisci rerum fuga, cumque aliquid dolores necessitatibus?
-      Facilis reprehenderit assumenda ipsam animi quia quas maxime unde
-      voluptatum molestias explicabo vero ipsum, dolorem omnis ea consectetur
-      porro commodi minus. Quos, doloremque? Officiis nam dignissimos alias
-      quasi atque eum voluptas sequi consequatur omnis sapiente! Voluptatibus
-      quibusdam iusto rerum sint, obcaecati impedit dolorum perspiciatis
-      reprehenderit quisquam nihil mollitia nesciunt, beatae ut quo amet. Error
-      soluta accusantium quasi animi expedita, saepe sequi consequatur
-      aspernatur?
-    </p>
+  <!-- ============================
+       PARAGRAPH TAG 
+       Used to write a block of text.
+  ============================= -->
 
-    <hr/>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+    voluptates rerum quidem, exercitationem suscipit ipsum incidunt numquam
+    enim est a distinctio totam unde error. Voluptas recusandae sit libero
+    eaque in adipisci rerum fuga, cumque aliquid dolores necessitatibus?
+  </p>
 
-    <pre>
-        Open one                                                 eye only —
+  <hr/>
+
+  <!-- ============================
+       PRE TAG 
+       Used for writing poems, code, or text that needs line breaks and formatting.
+  ============================= -->
+
+  <pre>
+Open one                                                 eye only —
 the horizon is in the closed eye.
 Open the seashell —
 no solitude will escape.
@@ -57,137 +49,98 @@ windows are rivers of our uncertainty.
 Open the sky.
 In my hands I keep a home —
 a prayer room in a hospital garden.
-    </pre>
+  </pre>
 
-<hr>
+  <hr/>
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>
-    Eligendi placeat voluptatum perspiciatis, facere ut dicta expedita praesentium nobis, dolores est omnis sint. Earum, quidem accusantium sapiente provident dolore iure fugit a similique cum reiciendis impedit recusandae consequatur, amet dicta porro delectus sequi, eum ut! Voluptates earum quae deleniti unde facere laudantium, vel necessitatibus ratione numquam assumenda repellendus. Ipsa nam, voluptate quasi ullam quisquam odit omnis fuga? Nisi eaque voluptatum aperiam est voluptatibus explicabo autem vel, accusantium soluta harum fugiat adipisci exercitationem consequuntur natus ad ea distinctio! Quod expedita eius, corporis, dolore voluptatem consequatur animi officia accusamus totam fuga similique itaque?</p>
+  <!-- ============================
+       BR TAG 
+       For line break inside paragraph
+  ============================= -->
 
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>
+    Eligendi placeat voluptatum perspiciatis, facere ut dicta expedita praesentium nobis.
+  </p>
 
-<!-- List : <li> tag
- 
-    There are three type of list 
-        1. Order List -> <ol> tag 
+  <!-- ============================
+       LISTS IN HTML 
+       1. Ordered List <ol>
+       2. Unordered List <ul>
+       3. Description List <dl>
+  ============================= -->
 
-            type of order (5 type): 1(default), A, a,I, i
+  <!-- ===== ORDERED LIST ===== -->
+  <!-- Shows items in sequence -->
 
-        2. Unorderd list -> <ul> tag
-            type : disc (default), circle, square, none
+  <h3>Ordered List Examples:</h3>
 
-        3. discription list -> <dl> tag
--->
-
-
-
-<!-- order list -->
-
-<ol type="1">
+  <ol type="1">
     <li>HTML Book</li>
-    <li>Pencile</li>
+    <li>Pencil</li>
     <li>Apple</li>
     <li>Banana</li>
     <li>Veg</li>
-</ol>
-<ol type="1"  start="51">
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ol>
-<ol type="A" >
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ol>
-<ol type="A" >
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ol>
-<ol type="a" >
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ol>
-<ol type="i" >
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ol>
-<ol type="I" >
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ol>
+  </ol>
 
-<!-- unorder list -->
+  <ol type="1" start="51">
+    <li>Start from 51</li>
+    <li>Item</li>
+    <li>Item</li>
+  </ol>
 
-<ul  >
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ul>
-<ul type="disc" >
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ul>
-<ul type="square" >
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ul>
-<ul type="circle">
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ul>
-<ul type="none" align="center">
-    <li>HTML Book</li>
-    <li>Pencile</li>
-    <li>Apple</li>
-    <li>Banana</li>
-    <li>Veg</li>
-</ul>
+  <ol type="A">
+    <li>Capital Letters (A, B, C)</li>
+  </ol>
 
+  <ol type="a">
+    <li>Small Letters (a, b, c)</li>
+  </ol>
 
-<!-- description list :  -->
+  <ol type="i">
+    <li>Roman Small (i, ii, iii)</li>
+  </ol>
 
+  <ol type="I">
+    <li>Roman Capital (I, II, III)</li>
+  </ol>
 
-    <dl>
-        <dt>Topic</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ut.</dd>
-        <dt>Topic</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ut.</dd>
-        <dt>Topic</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ut.</dd>
-        <dt>Topic</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ut.</dd>
-        <dt>Topic</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ut.</dd>
-        <dt>Topic</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ut.</dd>
-    </dl>
+  <!-- ===== UNORDERED LIST ===== -->
+  <!-- Shows items with symbols (disc, square, etc.) -->
 
-  </body>
+  <h3>Unordered List Examples:</h3>
+
+  <ul type="disc">
+    <li>Disc (default)</li>
+  </ul>
+
+  <ul type="square">
+    <li>Square bullets</li>
+  </ul>
+
+  <ul type="circle">
+    <li>Circle bullets</li>
+  </ul>
+
+  <ul type="none">
+    <li>No bullets</li>
+  </ul>
+
+  <!-- ===== DESCRIPTION LIST ===== -->
+  <!-- Used for terms and descriptions like in glossary -->
+
+  <h3>Description List Example:</h3>
+
+  <dl>
+    <dt>HTML</dt>
+    <dd>Standard markup language for creating web pages.</dd>
+
+    <dt>CSS</dt>
+    <dd>Used for styling HTML content.</dd>
+
+    <dt>JavaScript</dt>
+    <dd>Used to add interactivity in web pages.</dd>
+  </dl>
+
+</body>
 </html>
