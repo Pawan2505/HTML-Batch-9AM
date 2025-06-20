@@ -3,17 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marquee tag</title>
+    <title>Marquee Tag</title>
 </head>
 <body>
 
-   <marquee>Lorem ipsum dolorg elit. Non, vero.</marquee>
-   <marquee behavior="scroll"  direction="right" scrollamount="10">Lorem ipsum dolor sit amet.</marquee>
-   <marquee behavior="slide"  direction="right" scrollamount="50">Lorem ipsum dolor sit amet.</marquee>
-   <marquee behavior="alternate" direction="left" scrollamount="50">Lorem ipsum dolor sit amet consectetur.</marquee>
-   <marquee behavior="scroll" direction="up" scrollamount="30" height="200px">Lorem ipsum dolor sit amet consectetur.</marquee>
-   <marquee behavior="alternate" direction="down" scrollamount="30" height="200px">Lorem ipsum dolor sit amet consectetur.</marquee>
+    <!-- Simple Marquee (Default scroll left to right) -->
+    <marquee>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, vero.</marquee>
 
-    
+    <!-- Marquee with scroll behavior and direction -->
+    <marquee behavior="scroll" direction="right" scrollamount="10">
+        Lorem ipsum dolor sit amet.
+    </marquee>
+
+    <!-- Marquee with slide behavior -->
+    <marquee behavior="slide" direction="right" scrollamount="50">
+        Lorem ipsum dolor sit amet.
+    </marquee>
+
+    <!-- Marquee with alternate behavior -->
+    <marquee behavior="alternate" direction="left" scrollamount="50">
+        Lorem ipsum dolor sit amet consectetur.
+    </marquee>
+
+    <!-- Vertical marquee scrolling up -->
+    <marquee behavior="scroll" direction="up" scrollamount="30" height="200px">
+        Lorem ipsum dolor sit amet consectetur.
+    </marquee>
+
+    <!-- Vertical marquee with alternate direction down -->
+    <marquee behavior="alternate" direction="down" scrollamount="30" height="200px">
+        Lorem ipsum dolor sit amet consectetur.
+    </marquee>
+
 </body>
 </html>
