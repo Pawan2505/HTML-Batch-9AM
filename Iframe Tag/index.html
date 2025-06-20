@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Iframe Embeds</title>
+
+  <style>
+    /* Viewport units: vw = viewport width, vh = viewport height */
+    .container {
+      width: 95vw;
+      height: 90vh;
+      border: 2px solid green;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Google Map Embed -->
+  <!-- % works on parent-child relationship -->
+  <div class="container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29675.633336106064!2d71.2278016!3d21.607219200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1750391091366!5m2!1sen!2sin" 
+      width="100%" 
+      height="100%" 
+      style="border:0;" 
+      allowfullscreen 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <br><br>
+
+  <!-- YouTube Video Embed -->
+  <div>
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/Wvk7rdX8T0w?si=185gTu7fYrr-yZjv" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>
